@@ -1,4 +1,4 @@
-FROM elixir:1.10-alpine
+FROM bitwalker/alpine-elixir:1.11.0
 ENV MIX_ENV=prod
 ENV REPLACE_OS_VARS=true
 ENV RUSTFLAGS="-C target-feature=-crt-static"
